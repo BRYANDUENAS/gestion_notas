@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: auto;
   text-align: center;
 }
 
@@ -39,4 +37,44 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.react-calendar {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.react-calendar__tile {
+  color: black; /* Hace que el texto de los días sea negro */
+}
+
+.react-calendar__navigation button {
+  color: black; /* Cambia el color de las flechas de navegación a negro */
+}
+
+.react-calendar__navigation button:disabled {
+  color: #ccc; /* Opcional: color para los botones deshabilitados */
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: black; /* Cambia el color de las etiquetas de los días de la semana a negro */
+}
+
+
+/* src/components/Sidebar.css */
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 0;
+  display: block;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
 }
